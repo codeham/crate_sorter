@@ -1,0 +1,66 @@
+
+Title: Crate Sorter 2000
+
+Description: manage all your slaps in one piece of software
+
+Tools: Java, Java Libraries, Command Line Interface Libraries
+
+Functionallity: 
+	> Parse through folder containing all music files(.mp3, .mp4...)
+		> Check each files meta data it contains, and store it in a data structure (Hash Map)
+	> Store everything either in a huge data strucutre or temp file buffer
+	> Convert this data structure into an Excel sheet with populated columns and attributes
+	> Export this sheet onto designated user destination
+	
+Commmand Line UI rough draft
+-----------------------------
+Welcome, ....
+
+Menu 1
+------------------------
+1. Scan complete library
+2. Scan up to # of files
+3. Exit
+
+Scan complete library Menu 1 (option: 1)
+----------------------------------------
+Proceeding with scan...
+
+Have a beer while you wait for our hamsters to finish powering our algorithm...
+
+* Insert funny ASCII art here *
+
+* ... after scan is finished *
+
+Display results here
+
+2. Scan up to # of files Menu 1 (option: 2)
+-------------------------------------------
+Up to which file would you like our algorithm to stop ?
+*insert number here*
+
+Proceeding with scan...
+
+Have a beer while you wait for our hamsters to finish powering our algorithm...
+
+*... after scan is finished *
+
+Display results here
+
+Exit Menu 1 (option: 3)
+-----------------------
+*Exits whole program*
+
+File Structure
+--------------
+
+org.crate_sorter
+org.crate_sorter.application_runner
+org.crate_sorter.ui
+org.crate_sorter.folder_reading
+org.crate_sorter.file_reading
+org.crate_sorter.parser
+org.crate_sorter.excel_writer
+
+
+
